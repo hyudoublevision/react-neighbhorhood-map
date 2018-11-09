@@ -30,3 +30,148 @@
     transform: rotate(360deg);
   }
 }
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: relative;
+  width: 36px;
+  height: 25px;
+  left: 45px;
+  top: 70px;
+  margin-top:25px;;
+}
+ 
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+}
+
+
+
+ 
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  margin-top: -5px;
+  margin-right: 7px;
+  height: 24px;
+  width: 24px;
+}
+ 
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+ 
+/* General sidebar styles */
+.bm-menu {
+  background: #ebebe0;
+  a {
+    color: #b8b7ad;
+
+    &:hover,
+    &:focus {
+      color: #c94e50;
+    }
+  }
+}
+ 
+/* Morph shape necessary with bubble or elastic */
+
+ 
+/* Wrapper for item list */
+.bm-item-list {
+  color: #cc6699;
+  padding: 0.8em;
+}
+
+.bm-item-list a {
+  margin-top: 10px;
+  padding: 0.8em;
+  color: #c94e50;
+  font-size: 1.2em;
+  font-weight: bold;
+  font-family: Arial Black;
+  
+  span {
+    margin-left: 10px;
+    font-weight: 700;
+  }
+}
+
+.bm-item-list i {
+	margin-right: 8px;
+	color: 
+	
+}
+
+.bm-item-list a:hover {
+	  color: #6666ff;
+ }
+ 
+ .bm-item-list a:focus {
+     color: #33cc33;
+ }
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+
+.topheading {
+	margin: auto;
+	
+}
+
+.search-books-bar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  
+  display: flex;
+ 
+}
+.search-books-input-wrapper {
+  flex: 1;
+  background: #e9e;
+}
+.search-books-bar input {
+  width: 100%;
+  padding: 1px 8px;
+  font-size: 1.25em;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+
+.close-search {
+  display: block;
+  top: 20px;
+  left: 15px;
+  width: 50px;
+  height: 53px;
+  background: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 28px;
+  font-size: 0;
+}
+
+
+@media screen and (max-width: 500px){
+	.bm-menu{
+		width: 200px;
+		display: flex;
+	}
+	
+}
+
+
+@media screen and (max-width: 300px) {
+	 .bm-menu {
+		 width: 160px;
+		 display: flex;
+	 }
+	  
+	
+}
