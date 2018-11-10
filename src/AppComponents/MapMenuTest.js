@@ -16,7 +16,7 @@ static propTypes = {
 }
 
 
-//Populate place List 
+//Populate place List using Menu
 getPlaceItems(){
 	
 	let items=[];

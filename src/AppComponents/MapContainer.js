@@ -87,15 +87,15 @@ export class MapContainer extends Component {
 			<InfoWindow marker={this.state.activeMarker} onClose={this.onInfoWindowClose} visible={this.state.showingInfoWindow}>
 				{this.props.yelpdataSuccess ? (
 			       <div aria-label="InfoWindow marker">
-						 <h2 tableIndex="0">{this.state.selectedPlace.name}</h2>
-						 <h3 tableIndex="0">Rating: {this.state.selectedPlace.rating}</h3>
-						 <h3 tableIndex="0">Review Count: {this.state.selectedPlace.reviewCount}</h3>
-						 
+						 <h2 tabIndex="0">{this.state.selectedPlace.name}</h2>
+						 <h3 tabIndex="0">Rating: {this.state.selectedPlace.rating}</h3>
+						 <h3 tabIndex="0">Review Count: {this.state.selectedPlace.reviewCount}</h3>
+						 <p>Data accredited to Yelp</p>
 			       </div>
 				) : 
 				(  
 				   <div aria-label="InfoWindow marker">
-				     <h2 tableIndex="0">{this.state.selectedPlace.name}</h2>
+				     <h2 tabIndex="0">{this.state.selectedPlace.name}</h2>
 					 <p>Getting Yelp Data error</p>
 				   </div>
 				 )}
